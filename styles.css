@@ -42,7 +42,7 @@ header {
 }
 
 h1 {
-    font-size: 15px;
+    font-size: 25px;
 }
 
 .nav ul {
@@ -146,9 +146,6 @@ footer {
 
 .mobileTopBar {
     display: none;
-    width: 100%;
-    background-color: #252525;
-    color: #fff;
 }
 
 .mobile-icons {
@@ -156,11 +153,9 @@ footer {
     align-items: center;
   }
   
-
-
 .navMobile {
     position: fixed;
-    margin-top: 49.5px;
+    margin-top: 40px;
     left: -300px;
     width: 150px;
     height: 100%;
@@ -205,6 +200,11 @@ footer {
 
 @media (max-width: 768px) {
 
+    main {
+        padding: 2rem;
+        padding-top: 4rem;
+    }
+
     .nav ul li {
         display: none;
     }
@@ -214,6 +214,10 @@ footer {
     }
 
     .mobileTopBar {
+
+        width: 100%;
+        background-color: #252525;
+        color: #fff;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -221,7 +225,7 @@ footer {
         color: #fff;
         padding: 10px 20px;
         position: fixed;
-        margin-top: -2px;
+        margin-top: -11px;
     }
 
     .mobile-icons {
