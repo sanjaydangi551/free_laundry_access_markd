@@ -160,12 +160,12 @@ main {
   }
 
   .callToActionImages {
-    background-color: #333; /* Dark grey background */
-    padding: 20px; /* Add padding for the background */
+    background-color: #333; 
+    padding: 20px; 
     display: flex;
-    justify-content: center; /* Center the images horizontally */
+    justify-content: center; 
     align-items: center;
-    max-width: 100%; /* Set the maximum width of the container */
+    max-width: 100%;
     margin: auto;
   }
   
@@ -180,16 +180,16 @@ main {
   }
   
   .callToAction + .callToAction {
-    margin-left: 20px; /* Add space between images */
+    margin-left: 20px;
   }
 
   .about-section {
-    background-color: #f9f9f9; /* Light background color */
-    padding: 80px 0; /* Add vertical padding */
+    background-color: #f9f9f9; 
+    padding: 80px 0; 
   }
   
   .about-container {
-    max-width: 800px; /* Set the maximum width of the content */
+    max-width: 800px; 
     margin: 0 auto;
     text-align: center;
   }
@@ -197,13 +197,13 @@ main {
   .about-container h2 {
     font-size: 28px;
     margin-bottom: 20px;
-    color: #333; /* Text color */
+    color: #333; 
   }
   
   .about-container p {
     font-size: 16px;
     line-height: 1.6;
-    color: #666; /* Text color */
+    color: #666; 
   }
 
 footer {
